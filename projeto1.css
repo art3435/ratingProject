@@ -1,0 +1,117 @@
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+#imgTop {
+    margin-right: 205px;
+    margin-top: -30px;
+    background-color: hsl(216, 12%, 8%);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: hsl(213, 19%, 18%);
+    display: inline-block;
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+    padding: 40px 30px 80px 30px;
+    height: 250px;
+    width: 300px;
+    border-radius: 10%;
+}
+
+#star1{
+    display: flex;
+}
+
+.number {
+    display: flex;
+    margin-bottom: 3px;
+}
+
+.singleNumber:hover{
+    background-color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+.singleNumber {
+    margin-right: 10px;
+    padding: 10px 12px 10px 12px;
+    border-radius: 50%;
+    background-color: hsl(216, 12%, 8%);
+    color: white;
+    list-style: none;
+}
+
+#button {
+    margin-top: 3px;
+    text-align: center;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    border-radius: 30px;
+    padding: 10px 50px 10px 50px;
+    width: 100%;
+    border: none;
+}
+
+#button:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+.attribution {
+    display: block;
+    color: white;
+    margin-right: 5%;
+    margin-top: 10px;
+}
+
+.thankYou {
+    display: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: hsl(213, 19%, 18%);
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+    padding: 40px 30px 80px 30px;
+    height: 250px;
+    width: 300px;
+    border-radius: 10%;
+}
+
+.thankYou2 {
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: hsl(213, 19%, 18%);
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+    padding: 40px 30px 80px 30px;
+    height: 250px;
+    width: 300px;
+    border-radius: 10%;
+}
+
+p,
+span {
+    color: white;
+}
+
+#textResult {
+    background-color: #222222;
+    color: hsl(25, 97%, 53%);
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+#textComplement {
+    margin-top: 5px;
+}

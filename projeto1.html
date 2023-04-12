@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <title>Frontend Mentor | Interactive rating component</title>
+    <link rel="stylesheet" href="./projeto1.css">
+</head>
+
+<body>
+
+    <div class="text" id="textId">
+        <img id="imgTop" src="./icon-star.svg">
+
+
+        <h1>How did we do?</h1>
+
+        <p>Please let us know how we did with your support request. All feedback is appreciated
+            to help us improve our offering!
+        </p>
+
+        <ul class="number" id="starsContain">
+            <li id="number1" class="singleNumber" value="1">1</li>
+            <li id="number2" class="singleNumber" value="2">2</li>
+            <li id="number3" class="singleNumber" value="3">3</li>
+            <li id="number4" class="singleNumber" value="4">4</li>
+            <li id="number5" class="singleNumber" value="5">5</li>
+        </ul>
+
+        <button type="button" id="button">SUBMIT</button>
+
+    </div>
+
+
+    <div class="thankYou" id="thankYouId">
+
+        <img src="./tkyou.svg">
+
+        <p id="textResult"> You selected <span id="starsAmount"></span> out of 5.</p>
+
+        <p id="textComplement"> Thank you!
+
+            We appreciate you taking the time to give a rating. If you ever need more support,
+            don't hesitate to get in touch!
+        </p>
+    </div>
+
+</body>
+
+<script src="./projeto1.js"></script>
+
+</html>

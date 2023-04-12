@@ -1,0 +1,1 @@
+# ratingProject permite o usuário avaliar um serviço baseado no sistema de estrelas, emitindo um alert caso nenhuma estrela seja selecionada e o botão submit seja clicado, exibindo a uma mensagem de agradecimento com a quantidade de estrelas selecionada.

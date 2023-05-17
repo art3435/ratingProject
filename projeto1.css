@@ -1,8 +1,19 @@
-
 body {
-    background-color: black;
-    display: flex;
+    background-color: #000;
+}
+
+#iconeGithub {
+    width: 3.5rem;
+    height: 3.5rem;
+    margin: .2rem;
+}
+
+#divIconeGithub {
+    background-color: hsl(25, 97%, 53%);
+    display: inline-block;
+    border-radius: 8px;
     justify-content: center;
+    align-items: center;
 }
 
 #imgTop {
@@ -19,14 +30,14 @@ body {
     display: inline-block;
     color: white;
     text-align: center;
-    margin-top: 200px;
+    margin: 100px 550px;
     padding: 40px 30px 80px 30px;
     height: 250px;
     width: 300px;
     border-radius: 10%;
 }
 
-#star1{
+#star1 {
     display: flex;
 }
 
@@ -35,7 +46,7 @@ body {
     margin-bottom: 3px;
 }
 
-.singleNumber:hover{
+.singleNumber:hover {
     background-color: hsl(25, 97%, 53%);
     cursor: pointer;
 }
@@ -75,15 +86,6 @@ body {
 
 .thankYou {
     display: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: hsl(213, 19%, 18%);
-    color: white;
-    text-align: center;
-    margin-top: 200px;
-    padding: 40px 30px 80px 30px;
-    height: 250px;
-    width: 300px;
-    border-radius: 10%;
 }
 
 .thankYou2 {
@@ -92,7 +94,7 @@ body {
     background-color: hsl(213, 19%, 18%);
     color: white;
     text-align: center;
-    margin-top: 200px;
+    margin: 100px 550px;
     padding: 40px 30px 80px 30px;
     height: 250px;
     width: 300px;

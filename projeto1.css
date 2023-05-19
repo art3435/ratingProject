@@ -1,19 +1,20 @@
 body {
     background-color: #000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #iconeGithub {
     width: 3.5rem;
     height: 3.5rem;
-    margin: .2rem;
-}
-
-#divIconeGithub {
     background-color: hsl(25, 97%, 53%);
-    display: inline-block;
     border-radius: 8px;
-    justify-content: center;
-    align-items: center;
+    padding: .5rem;
 }
 
 #imgTop {
@@ -25,12 +26,11 @@ body {
 }
 
 .text {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: hsl(213, 19%, 18%);
     display: inline-block;
+    background-color: hsl(213, 19%, 18%);
     color: white;
     text-align: center;
-    margin: 100px 550px;
+    margin-top:125px;
     padding: 40px 30px 80px 30px;
     height: 250px;
     width: 300px;
@@ -61,7 +61,7 @@ body {
 }
 
 #button {
-    margin-top: 3px;
+    margin-top: 10px;
     text-align: center;
     background-color: hsl(25, 97%, 53%);
     color: white;
@@ -90,7 +90,6 @@ body {
 
 .thankYou2 {
     display: inline-block;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: hsl(213, 19%, 18%);
     color: white;
     text-align: center;
@@ -116,4 +115,7 @@ span {
 
 #textComplement {
     margin-top: 5px;
+}
+
+@media (max-width:1200px) {
 }

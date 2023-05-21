@@ -93,7 +93,7 @@ main{
     background-color: hsl(213, 19%, 18%);
     color: white;
     text-align: center;
-    margin: 100px 550px;
+    margin-top: 100px;
     padding: 40px 30px 80px 30px;
     height: 250px;
     width: 300px;
@@ -115,7 +115,4 @@ span {
 
 #textComplement {
     margin-top: 5px;
-}
-
-@media (max-width:1200px) {
 }
